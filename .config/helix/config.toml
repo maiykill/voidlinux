@@ -1,0 +1,19 @@
+theme = "horizon-dark"
+# theme = "dracula"
+# theme = "rose_pine"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+C-g = [
+  ":new",
+  ":insert-output lazygit",
+  ":buffer-close!",
+  ":redraw",
+  ":reload-all",
+]
